@@ -1,0 +1,6 @@
+# todo-application-BE
+Spring Boot backend for a To-Do web application. Provides RESTful APIs to create, update, fetch, and mark tasks as completed. Supports PostgreSQL for persistent data storage and returns only the 5 most recent active tasks. Follows a clean layered architecture with DTOs, services, repositories, and controller layers.
+
+./mvnw.cmd clean package -DskipTests
+cd ..
+docker-compose up --build
